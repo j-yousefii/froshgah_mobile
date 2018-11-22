@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Toast.makeText(getApplicationContext(),"Your Name is "+edtname.getText(),Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(),"hello",Toast.LENGTH_LONG).show();
             }
         });
     }
